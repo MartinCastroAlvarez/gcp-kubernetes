@@ -1,0 +1,10 @@
+imports:
+  - path: cluster.jinja
+
+resources:
+  - name: my-kubernetes-cluster
+    type: cluster.jinja
+    properties:
+      zone: us-central1-a
+      clusterName: kuber
+      numNodes: 3
